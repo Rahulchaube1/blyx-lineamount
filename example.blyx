@@ -1,0 +1,13 @@
+use lineamount;
+
+fn main() {
+    let units = [2, 3];
+    let prices = [100, 50];
+    let result = lineamount_subtotal(units, prices);
+    if len(result) == 0 { println!("invalid"); return; }
+    let mut i = 0;
+    while i < len(result) {
+        println!(at(result, i));
+        i += 1;
+    }
+}
