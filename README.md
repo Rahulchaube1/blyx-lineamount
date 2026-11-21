@@ -4,14 +4,14 @@
 
 Extend paired invoice quantities and prices in integer minor units. This Blyx library is part of the publishing and commerce collection.
 
-Partial payments and overpayments must remain distinguishable when an invoice is reconciled. [GnuCash, accounts receivable](https://www.gnucash.org/docs/v5/C/gnucash-guide/bus-ar.html)
+Partial payments and overpayments must remain distinguishable when an invoice is reconciled. [GnuCash, accounts receivable](https://www.gnucash.org/docs/v5/C/gnucash-guide/bus_ar.html)
 
 ## Install and run
 
 Install [Blyx 0.2.1](https://www.blyx-lang.space/download) with a Rust toolchain and host linker for native builds.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-lineamount.git
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-lineamount.git
 cd blyx-lineamount
 blyxc native-run example.blyx
 blyxc native-run tests.blyx
@@ -24,7 +24,7 @@ blyxc native-run tests.blyx
 Run this in the directory containing your application's entry file.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-lineamount.git vendor/lineamount
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-lineamount.git vendor/lineamount
 ```
 
 ```blyx
